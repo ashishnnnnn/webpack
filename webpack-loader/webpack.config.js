@@ -1,9 +1,12 @@
 const path = require("path");
 
 module.exports = {
-    entry: './index.js',
+    entry: {
+        index: './index.js',
+        explore: './explore.js'
+    },
     output: {
-        filename: "bundle.js",
+        filename: "[name].bundle.js",
         path: path.resolve(__dirname, 'dist'),
         assetModuleFilename: "asset/[hash][ext]",
         clean: true
