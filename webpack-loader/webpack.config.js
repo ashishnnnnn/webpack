@@ -13,6 +13,10 @@ module.exports = {
             {
                 test: /\.(webp|png)$/,
                 type: "asset/resource"
+            },
+            {
+                test: /\.(css)$/,
+                use: ["style-loader", "css-loader"]
             }
         ]
     },

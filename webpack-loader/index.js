@@ -1,5 +1,6 @@
 import mountainImg from "./assets/mountain.webp";
 import bridgeImg from "./assets/bridge.png";
+import styles from "./styles/style.css"
 
 const mountain = document.getElementById("mountiain")
 const bridge = document.getElementById("bridge")
