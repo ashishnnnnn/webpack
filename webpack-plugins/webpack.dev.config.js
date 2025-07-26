@@ -4,6 +4,7 @@ const CopyPlugin = require("copy-webpack-plugin")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 
 module.exports = {
+    mode: "development",
     entry: {
         index: './index.js',
         explore: './explore.js'
@@ -54,5 +55,4 @@ module.exports = {
             }
         ]
     },
-    mode: "development"
 };

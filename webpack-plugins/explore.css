@@ -1,0 +1,35 @@
+/* Button styling matching previous page */
+button.btn {
+    background-color: #3498db;
+    /* same blue */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    margin: 20px;
+}
+
+button.btn:hover {
+    background-color: #2980b9;
+    /* darker blue on hover */
+}
+
+/* Anchor inside button */
+button.btn a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Image styling */
+img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
