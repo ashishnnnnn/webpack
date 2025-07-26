@@ -1,0 +1,7 @@
+# Node.js
+node_modules/
+dist/
+build/
+.env
+.env.*     # for multiple env files like .env.development, .env.production
+package-lock.json
